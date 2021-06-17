@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header {
+  margin: 0 0 5% 2%;
+}
+
+.header .bg-header {
+  position: relative;
+}
+
+.header .logo {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+
+.header__div {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  left: 20%;
+  width: 55%;
+}
+
+.header__div p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header__div h1 {
+  font-weight: 700;
+}
+
+.header__button {
+  width: 30%;
+  margin: auto;
+}
+
+.header__button--green {
+  background: #38945b;
+  margin: 10px;
+  padding: 12px;
+}
+
+.header__button--blue {
+  background-color: #387dcc;
+  padding: 12px;
+}
+
+.header__button .btn {
+  border-radius: 2em;
+  width: auto;
+  color: white;
+}
+
+.snippets {
+  width: 90%;
+}
+
+.snippets__div {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.snippets__div p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.snippets__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%;
+}
+
+.snippets__flex p {
+  margin-right: 5%;
+}
+
+.clipboard {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.workflow {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.workflow__plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.workflow__plan--icon, .workflow__plan--logo {
+  text-align: center;
+}
+
+.workflow__plan div {
+  width: 25%;
+  margin: 5%;
+}
+
+.workflow__network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.workflow__network p {
+  margin: 3%;
+}
+
+.footer {
+  background: #CCC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__logo {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+.footer__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__icon p {
+  margin: 10%;
+}
+
+.footer ul {
+  list-style: none;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 3%;
+  padding: 3%;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    width: auto;
+  }
+  h1 {
+    font-weight: 700;
+  }
+  .header {
+    margin: 0 0 10% 0;
+  }
+  .header .bg-header {
+    position: relative;
+    width: 100%;
+  }
+  .header .logo {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 12%;
+  }
+  .header__div {
+    position: static;
+    text-align: center;
+    width: auto;
+  }
+  .header__button {
+    width: 30%;
+    margin: auto;
+  }
+  .snippets {
+    margin: 10%;
+  }
+  .snippets__flex {
+    display: block;
+    margin-bottom: 5%;
+  }
+  .snippets__flex p {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .snippets__flex p img {
+    width: 85%;
+  }
+  .clipboard {
+    width: auto;
+    margin: 5% 5% 10% 5%;
+  }
+  .clipboard p img {
+    width: 85%;
+  }
+  .workflow {
+    margin: 5% 5% 10% 5%;
+  }
+  .workflow__plan {
+    display: block;
+  }
+  .workflow__plan div {
+    width: auto;
+    margin-bottom: 5%;
+  }
+  .workflow__network {
+    display: block;
+  }
+  .workflow__network p img {
+    margin: 5%;
+  }
+  .available {
+    margin: 5% 5% 10% 5%;
+  }
+  .available__button {
+    width: 30%;
+    margin: auto;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .footer p, .footer ul {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  .footer__icon p {
+    margin: 10%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
